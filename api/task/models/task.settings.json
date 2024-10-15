@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tasks",
+  "info": {
+    "name": "task"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "user_role": {
+      "model": "user-role"
+    },
+    "content": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    }
+  }
+}

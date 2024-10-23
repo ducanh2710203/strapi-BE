@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "user_roles",
+  "collectionName": "staffs",
   "info": {
-    "name": "userRole",
-    "description": ""
+    "name": "staffs"
   },
   "options": {
     "increments": true,
@@ -15,14 +14,9 @@
     "name": {
       "type": "string"
     },
-    "email": {
-      "type": "string"
-    },
-    "pass": {
-      "type": "string"
-    },
-    "admin": {
-      "type": "boolean"
+    "group": {
+      "model": "group",
+      "via": "staffs"
     }
   }
 }

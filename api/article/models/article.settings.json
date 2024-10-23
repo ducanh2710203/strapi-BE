@@ -44,10 +44,6 @@
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
-    },
-    "author": {
-      "via": "articles",
-      "model": "writer"
     }
   }
 }

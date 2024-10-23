@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "user_roles",
+  "collectionName": "leaders",
   "info": {
-    "name": "userRole",
-    "description": ""
+    "name": "Leader"
   },
   "options": {
     "increments": true,
@@ -14,15 +13,6 @@
   "attributes": {
     "name": {
       "type": "string"
-    },
-    "email": {
-      "type": "string"
-    },
-    "pass": {
-      "type": "string"
-    },
-    "admin": {
-      "type": "boolean"
     }
   }
 }
